@@ -2,9 +2,11 @@
 
 - [#](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#-character)
 
-+ [* or _](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--or-_-characters)
+- [* or _](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--or-_-characters)
 
 - [Important notes](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#notes)
+
+- [>](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the->--character)
 
 # Syntax
 
@@ -30,7 +32,9 @@
                             >
                             > That's how the title is done: `# Heading`
 
-## The '*' or '_' characters
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
+## The '*' or '_' characters: 
 
    ### Both of these characters have the same usage which is the following:
 
@@ -84,7 +88,9 @@
               
    - In each case the result is __All Bold + Part *Italic*__
 
-### Notes:
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
+### Notes: 
 
    > 1. It's recommended to use `*` instead of `_` . However, there are exceptions such as the number 4 above.
    >
@@ -131,6 +137,62 @@
    >   Some long text Some long text Some long text Some long text Some long text 
    >   Some long text Some long text Some long text Some long text Some long text 
    >   Some long text Some long text Some long text Some long text Some long text 
+
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
+## The '>' character: 
+
+   ### The character is used at the begining of a line similar to the #. It is used to write a quote or a note. I've used it to write the notes above.
+
+   Example for basic usage: 
+
+      > A note.
+
+   **Result:**
+
+   > A note.
+
+   The text **remains on one line** if you type the following:  
+      
+      > Row1
+      > Row2
+      > Row3
+   
+   **Result:**
+   
+   > Row1
+   > Row2
+   > Row3
+
+   As for **Multi-line text** is done as the following: 
+
+     > First
+     >
+     > Second
+
+   **Result:**
+
+   > First
+   >
+   > Second 
+
+   It can also be **nested** which means **one inside the other** like this: 
+
+      > Main
+      >
+      >  > Sub
+      >  >  
+      >  >  > Sub-Sub..
+   
+   **Result:** 
+
+   > Main
+   >
+   >  > Sub
+   >  >  
+   >  >  > Sub-Sub..
+
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
 
 
 <!--div style="text-align: center;">
