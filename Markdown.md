@@ -4,7 +4,7 @@
 
 + [* or _](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--or-_-characters)
 
-- [Important notes](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#notes:)
+- [Important notes](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#notes)
 
 # Syntax
 
