@@ -6,9 +6,9 @@
 
 - [Important notes](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#notes)
 
-- [>](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the->--character)
+- [>](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--character)
 
-- Lists:
+- [Lists:](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#lists)
 
    - [Unordered](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#unordered-lists)
 
