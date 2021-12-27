@@ -9,3 +9,5 @@
 - [Aligning images in markdown to center](https://blogs.ntu.edu.sg/ntulibrary/2018/09/12/how-to-align-images-on-your-website/) <ins>**&**</ins> [aligning images to a specific side](https://www.geeksforgeeks.org/html-img-align-attribute/)
 
 - [Reccomendations on writing style markdown files ](https://www.markdownguide.org/basic-syntax/)
+
+- [How to add contents table that works via links](https://www.setcorrect.com/portfolio/work11/)
