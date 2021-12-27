@@ -8,6 +8,11 @@
 
 - [>](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the->--character)
 
+- Lists:
+
+   - [Unordered](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#unordered-lists)
+
+   - [Ordered](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#ordered-lists)
 # Syntax
 
 ## **'#'** character: 
@@ -193,6 +198,96 @@
    >  >  > Sub-Sub..
 
 [Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
+----------------------------------------------------
+
+## Lists:
+   
+  > ### There are few types of lists that will be covered.
+  >
+  > ### Both of the *ordered* & *unordered* lists can be nested. You Could also **mix** between them and other characters that precede lines such as `#`, `>`.
+   ### Unordered lists: 
+      
+   They are lists that have no specific arrangement. Each line is 
+   preceded with one of the following characters `*`, `-`, `+`. 
+
+   > Note: You should use one of these characters without mixing between them
+   > for **consistency**.
+
+   **Example:** 
+
+      - This
+      is an
+
+      - Example.
+   
+   **Result:** 
+
+   - This 
+   is an
+
+   - Example.
+
+   ***OR*** 
+
+      - This
+      is an
+      - Example.
+
+   Here there is a difference in the output the 2 items **are closer** to each
+   other: 
+   
+   - This
+   is an
+   - Example.
+
+   **Nested** example:
+       
+       - Main
+
+          - Sub
+
+             - Sub-2
+
+                - Sub-3..
+
+   **Result:** 
+
+   - Main
+
+      - Sub
+
+         - Sub-2
+
+            - Sub-3..
+   
+   **Mixing** things up:
+
+       - ##### Small
+        
+       - > ##### Small ***Quote***.
+         >  
+       - >   > 1. One.
+         >  
+       - >   > 2. Two.
+
+       - > Another.
+
+   **Result:** 
+
+   - ##### Small
+        
+   - > ##### Small ***Quote***.
+     >  
+   - >   > 1. One.
+     >   >  
+   - >   > 2. Two.
+
+   - > Another.
+
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
+   ### Ordered lists: 
 
 
 <!--div style="text-align: center;">
