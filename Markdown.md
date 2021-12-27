@@ -1,8 +1,10 @@
 # Contents
 
-- [#]()
+- [#](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#-character)
 
-+ [* or _]()
++ [* or _](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--or-_-characters)
+
+- [Important notes](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#Notes:)
 
 # Syntax
 
@@ -28,107 +30,107 @@
                             >
                             > That's how the title is done: `# Heading`
 
-- ## The '*' or '_' characters
+## The '*' or '_' characters
 
-    - ### Both of these characters have the same usage which is the following:
+   ### Both of these characters have the same usage which is the following:
 
-        1. Can be used for *italic* text format which is done as follows:
+   1. Can be used for *italic* text format which is done as follows:
 
-               *Italic* 
+          *Italic* 
               
-        - OR
+   - OR
 
-              _Italic_
+         _Italic_
               
         - In each case the result is _Italic_
         
         -      -      -      -
         
-        2. Can be used for **bold** text format which is done as follows:
+   2. Can be used for **bold** text format which is done as follows:
 
-               **Bold** 
+          **Bold** 
               
-        - OR
+   - OR
 
-              __Bold__
+         __Bold__
               
-        - In each case the result is __Italic__
+   - In each case the result is __Italic__
 
         - - - - -
 
-        3. Can be used for ***Bold + Italic*** text format which is done as follows:
+   3. Can be used for ***Bold + Italic*** text format which is done as follows:
 
-               ***Bold + Italic*** 
+          ***Bold + Italic*** 
               
-        - OR
+   - OR
 
-              ___Bold + Italic___
+         ___Bold + Italic___
               
-        - In each case the result is ___Bold + Italic___
+   - In each case the result is ___Bold + Italic___
 
         ----
         
-        4. Can be used for **All Bold + Part _Italic_** text format which is done as follows:
+   4. Can be used for **All Bold + Part _Italic_** text format which is done as follows:
 
-                **All Bold + Part _Italic_** 
+          **All Bold + Part _Italic_** 
               
-        - OR
+   - OR
 
-                __All Bold + Part *Italic*__
+         __All Bold + Part *Italic*__
                 
-        - OR
+   - OR
 
-                **All Bold + Part *Italic*** / __All Bold + Part _Italic___
+         **All Bold + Part *Italic*** / __All Bold + Part _Italic___
               
-        - In each case the result is __All Bold + Part *Italic*__
+   - In each case the result is __All Bold + Part *Italic*__
 
-> Notes:
->
-> 1. It's recommended to use `*` instead of `_` . However, there are exceptions such as the number 4 above.
->
-> 2. In order to write one new line you just have to press the `enter` or `return` key on your keyboard **twice**.
-> So that there is a blank line in between.
->                       
->        First line
->
->        Second line
->       
-> 3. It's also recommended to use a blanked line in between each new line even if there is a special character that does a new line for you
->
->   **Example:**
->
->       1. First line
->       2. Second line
->
->   Has the same result as the one bellow:
->       
->       1. First line
->
->       2. Second line
->
->   Result:
->
->   1. First line
->   2. Second line
->
->   However, it's better to use the one with a blank in between. Since, it's more organized than the first.
->
-> 4. Also add a space after using a special character. Moreover, if you run out of space in one line press enter`enter` or `return` key on
->  your keyboard **once**, so it will remain on one line on the observer's view.
->
->   Example:
->
->           Some long text Some long text Some long text Some long text Some long text 
->           Some long text Some long text Some long text Some long text Some long text 
->           Some long text Some long text Some long text Some long text Some long text 
->           Some long text Some long text Some long text Some long text Some long text 
->   
->   Results in: 
->   
->   Some long text Some long text Some long text Some long text Some long text 
->   Some long text Some long text Some long text Some long text Some long text 
->   Some long text Some long text Some long text Some long text Some long text 
->   Some long text Some long text Some long text Some long text Some long text 
+### Notes:
+
+   > 1. It's recommended to use `*` instead of `_` . However, there are exceptions such as the number 4 above.
+   >
+   > 2. In order to write one new line you just have to press the `enter` or `return` key on your keyboard **twice**.
+   > So that there is a blank line in between.
+   >                       
+   >        First line
+   >
+   >        Second line
+   >       
+   > 3. It's also recommended to use a blanked line in between each new line even if there is a special character that does a new line for you
+   >
+   >   **Example:**
+   >
+   >       1. First line
+   >       2. Second line
+   >
+   >   Has the same result as the one bellow:
+   >       
+   >       1. First line
+   >
+   >       2. Second line
+   >
+   >   Result:
+   >
+   >   1. First line
+   >   2. Second line
+   >
+   >   However, it's better to use the one with a blank in between. Since, it's more organized than the first.
+   >
+   > 4. Also add a space after using a special character. Moreover, if you run out of space in one line press enter`enter` or `return` key on
+   >  your keyboard **once**, so it will remain on one line on the observer's view.
+   >
+   >   Example:
+   >
+   >           Some long text Some long text Some long text Some long text Some long text 
+   >           Some long text Some long text Some long text Some long text Some long text 
+   >           Some long text Some long text Some long text Some long text Some long text 
+   >           Some long text Some long text Some long text Some long text Some long text 
+   >   
+   >   Results in: 
+   >   
+   >   Some long text Some long text Some long text Some long text Some long text 
+   >   Some long text Some long text Some long text Some long text Some long text 
+   >   Some long text Some long text Some long text Some long text Some long text 
+   >   Some long text Some long text Some long text Some long text Some long text 
 
 
 <!--div style="text-align: center;">
