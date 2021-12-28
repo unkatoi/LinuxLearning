@@ -1,18 +1,18 @@
 # Contents
 
-- [#](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#-character)
+- [Heading `#`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#-character)
 
-- [* or _](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--or-_-characters)
+- [Font `*` or `_`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--or-_-characters)
 
 - [Important notes](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#notes)
 
-- [>](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--character)
+- [Quoting `>`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--character)
 
 - [Lists:](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#lists)
 
-   - [Unordered](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#unordered-lists)
+   - [Unordered `-` `+`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#unordered-lists)
 
-   - [Ordered](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#ordered-lists)
+   - [Ordered `1. `](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#ordered-lists)
 # Syntax
 
 ## **'#'** character: 
@@ -206,6 +206,7 @@
   > ### There are few types of lists that will be covered.
   >
   > ### Both of the *ordered* & *unordered* lists can be nested. You Could also **mix** between them and other characters that precede lines such as `#`, `>`.
+   
    ### Unordered lists: 
       
    They are lists that have no specific arrangement. Each line is 
@@ -288,6 +289,97 @@
 [Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
 
    ### Ordered lists: 
+   
+   This type of list is arranged using numbers (ordered). Each line is 
+   preceded with a number with a dot and a space after e.g. `1. `.
+   
+   **Basic example:**
+   
+      1. First.
+      
+      2. Second
+      
+      3. Third
+      
+   **Result:**
+   
+   1. First.
+      
+   2. Second
+      
+   3. Third
+   
+   ***OR if you want to make the rows closer to each other:***
+   
+      1. First.
+      2. Second
+      3. Third
+      
+   **Result:**
+   
+   1. First.
+   2. Second
+   3. Third
+
+   Some useful feature might be having the ability to still make an ordered list **without the need for 
+   knowing the exact number** of items in that list:
+   
+      1. One
+      
+      1. Smth
+      
+      1. More
+      
+      1. Something else.
+   
+   **Result:**
+   
+   1. One
+      
+   1. Smth
+      
+   1. More
+      
+   1. Something else.
+
+   > ***Note:*** The above example will work also if you provide **unordered numbers while the first number is `1. `**
+   >
+   > **Example:**
+   >
+   >     1. A
+   >    
+   >     9. B
+   >    
+   >     10. C
+   >     
+   > **Result:**
+   > 1. A
+   >    
+   > 9. B
+   >    
+   > 10. C
+   > 
+   > Even so you still should not use random numbers since they will appear random while editing the file.
+
+   ***It's also possible to start from another number than 1 just type it in the first row:***
+   
+      100. qwe
+      
+      101. asd
+      
+      102. zxc
+      
+   **Result:**
+   
+   100. qwe
+      
+   101. asd
+      
+   102. zxc
+
+   You could also ***nesting*** and ***mixing*** just like **unordered list**.
+   
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
 
 
 <!--div style="text-align: center;">
