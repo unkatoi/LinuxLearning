@@ -608,4 +608,69 @@
 
 ## Adding code
    
-   #### It's done using the following symbol ```
+   #### It's done using the following symbol **\`** like the following:
+   
+      `command x`
+      
+   **Result:**
+   
+   `command x`
+   
+   You could also type multiple lines of code with the following:
+   
+      ```
+      line1
+      
+      line2
+      
+      line3
+      ```
+   
+   **Result:**
+   
+   ```
+   line1
+      
+   line2
+      
+   line3
+   ```
+   
+   If you're writing in a specific programming language you could do this:
+   
+      ```C#
+      System.Console.WriteLine("Hello, world");
+      ```
+   
+   **Result:**
+   
+   ```C#
+   System.Console.WriteLine("Hello, world");
+   ```
+   > To know more about the name to use following the triple \` check this <https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks>. Or check [this](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) for specific name I recommend using `Ctrl+F` to search for the language you are looking for with a match case search (where C is different from c).
+   >
+   > The \` character is found on the top-left corner of your keyboard downward from `Esc`.
+
+   The final method to do a block of code is using a tab on github or 4 spaces:
+   
+   ```
+      line1
+      
+      line2
+      
+      line3
+
+   ```
+   
+   **Result:**
+   
+      line1
+      
+      line2
+      
+      line3
+   
+   -----------------
+
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
