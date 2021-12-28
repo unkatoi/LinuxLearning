@@ -15,6 +15,8 @@
    - [Unordered `-` `+`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#unordered-lists)
 
    - [Ordered `1. `](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#ordered-lists)
+
+   - [Task `[ ]`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#task-lists)
 # Syntax
 
 ## **'#'** character: 
@@ -383,7 +385,53 @@
    
 [Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
 
+   ### Task lists:
+   
+   This type of list as the name suggests is used for mentioning tasks that you're going to do or that you've already done.
+   you start by typing one of these characters `-`, `+`, `*` followed by `[ ]` Then a space and write the task.
+   
+   > For tasks that are still in porcess you do this `- [ ] ` there is a space between the square brackets which outputs :white_large_square:
+   > For tasks that have been done you do this `- [x] ` type an x between the square brackets which outputs :ballot_box_with_check:
+   
+   **Example:**
+      
+      - [ ] Do that thing
+      
+      - [x] Write this down
+   
+   **Result:**
+   
+   - [ ] Do that thing
+      
+   - [x] Write this down
 
+   Here too you can ***mix*** many characters together just like in the following **example:**
+   
+      ### - [ ] Do the following:
+   
+      > - [x] Create a repository.
+      >
+      > - [x] Add a sources file.
+      >   
+      >   > - [ ] Finish the file
+      >   
+      >   > - [ ] Updates   
+      
+   **Result:**
+   
+   ### - [ ] Do the following:
+   
+   > - [x] Create a repository.
+   >
+   > - [x] Add a sources file.
+   >   
+   >   > - [ ] Finish the file
+   >   
+   >   > - [ ] Updates   
+
+   --------------------
+   
+   
 <!--div style="text-align: center;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" style="width: 10%; height: 10%;"/>
 </div-->
