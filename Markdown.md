@@ -28,6 +28,14 @@
    
 - [Adding Code **\` or \`\`\`**](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#adding-code) 
 
+- [Adding a line `---` or `***` or `___`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#adding-lines)
+
+- [Disabling a markdown character `\`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#disabling-a-markdown-character)
+
+- [Using emoji `:Emoji code:`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#using-emoji)
+
+- [Tables `|  |  |`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#tables)
+
 # Syntax
 
 ## **'#'** character: 
@@ -673,4 +681,49 @@
    -----------------
 
 [Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
+## Adding lines
+
+Lines are added by using a consecutive order of characters which are `-`, `*`, `_`. I prefer to use `-` character consecutively as the following:
+
+   `-----------------`
+   
+However, you could also use this:
+   
+    ---
+   
+    ***
+   
+    ___
+
+**Result:**
+
+---
+   
+***
+   
+___
+
+> ## Disabling a markdown character
+>
+> To do that you simply add a back-slash `\` character before the markdown character like this:
+>
+> ```
+> \* \- \+ \` \_ \# \> \*\*\*
+> ```
+>
+> Result: \* \- \+ \` \_ \# \> \*\*\*
+
+> ## Using emoji
+>
+> You can add an emoji to your markdown file like this `:Emoji code:`
+>
+> To find the emoji code you are looking for check the following [link](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+> the link provides emoji tables.
+
+---
+
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
+## Tables
 
