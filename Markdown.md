@@ -16,7 +16,7 @@
 
    - [Ordered `1. `](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#ordered-lists)
 
-   - [Task `[ ]`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#task-lists)
+   - [Task `- [ ] `](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#task-lists)
 # Syntax
 
 ## **'#'** character: 
