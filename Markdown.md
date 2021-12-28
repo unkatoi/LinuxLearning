@@ -21,6 +21,8 @@
 - [Links:](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#links)
    
    - [Basic link usage `[]()` or `<url>`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#links) 
+   
+   - [Images `<>` or `![]()` or html](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#images) 
 
 # Syntax
 
