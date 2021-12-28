@@ -1,5 +1,7 @@
 # Contents
 
+>  If you want to check the file behind the scenes either click on `<>` or `Raw` button on top-right corner
+
 - [Heading `#`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#-character)
 
 - [Font `*` or `_`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#the--or-_-characters)
