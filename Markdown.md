@@ -23,6 +23,10 @@
    - [Basic link usage `[]()` or `<url>`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#links) 
    
    - [Images `<>` or `![]()` or html](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#images) 
+   
+   - [Footnote `[^1]`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#footnotes) 
+   
+- [Adding Code **\` or \`\`\`**](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#adding-code) 
 
 # Syntax
 
@@ -504,6 +508,8 @@
    > 
    > - Specific characters are omitted(removed) or replaced with `-`. Such as `*`, `#`, `:`, `>`, `<` ..
 
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+
    --------------------
    
    ### Images 
@@ -567,4 +573,39 @@
         style="width: 10%; height: 10%;"/>
    </p>
    
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)   
+  
+   -------------------
    
+   ## Footnotes
+   
+   #### They are not exactly links. However, they're similar to link in a way because they send you to a specific location
+   #### in the file where you assigned the footnote.
+   
+   **Example:**
+   
+      Words of the day conspicious[^1] vivid[^1]
+      
+      lines...
+      
+      [^1]: is an adjective that describes something that clear or evident
+      
+   **Result:**
+   
+   Words of the day conspicious[^1] vivid[^1]
+      
+   lines...
+      
+   [^1]: is an adjective that describes something that clear or evident
+   
+   As you see the word you type a footnote is followed by `[^number of footnote]` **without a space between them**.
+   Also the footnote it self is written wherever you need it like this `[^number of footnote]: `. However, the footnote 
+   will appear at the end of your markdown file.
+   
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)   
+   
+   ----------------
+
+## Adding code
+   
+   #### It's done using the following symbol ```
