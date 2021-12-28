@@ -678,6 +678,9 @@
       
       line3
    
+   > I've noticed while working on this file that to make a line and a table in a code block using the `tab` 
+   > might not work and for it to work use 4 spaces (1 `tab` and 1 `space`) it might work for you with one tab.
+   
    -----------------
 
 [Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
@@ -727,3 +730,40 @@ ___
 
 ## Tables
 
+To add a table you do the following: 
+
+    |   num   |  name   |
+    | ------- | ------- |
+    |    1    |  Jason  |
+    |    2    |  Jack   |
+    |    3    |  Cherry |
+   
+**Result:**
+
+|   num   |  name   |
+| ------- | ------- |
+|    1    |  Jason  |
+|    2    |  Jack   |
+|    3    |  Cherry |
+
+I've notice that you can't use one of the characters that precede the line such as `#`, `-`, `>`.
+However, if I find out otherwise I'll edit this.
+
+There is also a **right-aligned column table** which is done like this:
+
+    |   num   |  name   |
+    | -------: | -------: |
+    |    1    |  Jason  |
+    |    2    |  Jack   |
+    |    3    |  Cherry |
+
+**Result:**
+
+|   num   |  name   |
+| -------: | -------: |
+|    1    |  Jason  |
+|    2    |  Jack   |
+|    3    |  Cherry |
+
+# That's it for this markdown file if find anything new worth mentioning I'll add it.
+[Back to README.md](https://github.com/unkatoi/LinuxLearning/blob/main/ README.md)
