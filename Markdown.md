@@ -17,6 +17,11 @@
    - [Ordered `1. `](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#ordered-lists)
 
    - [Task `- [ ] `](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#task-lists)
+   
+- [Links:](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#links)
+   
+   - [Basic link usage `[]()` or `<url>`](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#links) 
+
 # Syntax
 
 ## **'#'** character: 
@@ -431,11 +436,154 @@
 
    Notice there is not a checkbox on the first line. It seeems that there it's not possible to make a heading with a checkbox.
    
+[Back to contents](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+   
+--------------------
+   
+## Links:
+   
+   > #### Links can be used for various purposes which will be mentioned in this section.
+   > #### They are usually implimented by the following `[sometext](link)`
+
+   ### Link usage:
+   
+   Links are created by typing **text between `[ ]`** which represents what's the link is about, 
+   **followed by parentheses `( )`** that contain the **url**. There isn't a space between `[ ]` and `( )`.
+   
+   **Example:**
+   
+      [url meaning](https://support.google.com/google-ads/answer/14095?hl=en)
+      
+   **Result:**
+   
+   [url meaning](https://support.google.com/google-ads/answer/14095?hl=en)
+   
+   You can also mention the **url it self** between `<>` to make it a **link** as bellow:
+   
+      <https://support.google.com/google-ads/answer/14095?hl=en>
+      
+   **Result:**
+   
+   <https://support.google.com/google-ads/answer/14095?hl=en>
+   
+   You can format the link using Italic and/or bold like `*[this](url)*` or `[*this*](url)`
+   
+   Regarding how I done the [contents link](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents) 
+   it's done as the following: 
+      
+      [contents link](https://github.com/unkatoi/LinuxLearning/blob/main/Markdown.md#contents)
+                                                                                                            
+      [contents link](https://github.com/GithubDisplayName/RepositoryName/blob/main(BranchName)/FileName.Type#HeadingName)
+      
+   This information is useful to know especially when you are working with multiple branches on github or desktop with git
+   and you are refering to some file in a **temporary branch** and after finishing your work on it you'll most likely want to
+   **merge** the temporary branch with your main branch. When this happens the temporary branch is deleted and the link that 
+   you provided stops working or **sends you to Not Found 404 page**. You'll need to **change the branch name in the link**.
+   
+   An easier way to make a link that sends the viewer to a specific heading in your markdown file is to:
+   
+   1. Open that file in Github.
+   
+   2. Go to the wanted heading.
+   
+   3. Hover over the heading (put the mouse's cursor/ pointer on the heading).
+   
+   4. You'll find this :link: sign on the left of the heading.
+   
+   5. If you press on it (left mouse click) you'll find that the url has changed.
+   
+   6. Copy the url and that's it.  
+   
+   > In heading part of url or any other part that includes names this is true:
+   > 
+   > - Spaces are replaced with `-`.
+   > 
+   > - Capital letters are replaced with small, e.g. `Contents` -> `contents`.
+   > 
+   > - Specific characters are omitted(removed) or replaced with `-`. Such as `*`, `#`, `:`, `>`, `<` ..
+
    --------------------
    
+   ### Images 
    
+   #### Another usage of links is providing images to which is done as the following: 
+   ```
+   ![name](url of image)
+   ```
+   **Example:**
+   
+      ![Mouse pointer](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png)
+      
+   **Result:**
+   
+   ![Mouse pointer](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png)
+   
+   If you want a title to appear on the image when hovering the mouse's pointer over it do the following: 
+   
+      ![Mouse pointer](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png "Pointer")
+   
+   **Result:**
+   
+   ![Mouse pointer](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png "Pointer")
+   
+   To add a link to an image when clicking on the image do the following: 
+      
+      [[Some Image name](Image url)](Some url to a website)
+      
+   **Example:**
+      
+      [![Mouse pointer](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png "Pointer (This is optional)")](https://www.google.com/search?q=what+is+the+mouse+arrow+called&client=firefox-b-e&tbm=isch&source=iu&ictx=1&fir=jLqywEM-DuRyoM%252CYR2K7DauKOD0vM%252C_&vet=1&usg=AI4_-kTSXhmbHAp1DFd1SJvhXy100CvjCg&sa=X&ved=2ahUKEwizn7LG_4b1AhURNOwKHbQkA54Q9QF6BAgTEAE&biw=1920&bih=940&dpr=1)
+   
+   **Result:**
+   
+   [![Mouse pointer](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png "Pointer (This is optional)")](https://www.google.com/search?q=what+is+the+mouse+arrow+called&client=firefox-b-e&tbm=isch&source=iu&ictx=1&fir=jLqywEM-DuRyoM%252CYR2K7DauKOD0vM%252C_&vet=1&usg=AI4_-kTSXhmbHAp1DFd1SJvhXy100CvjCg&sa=X&ved=2ahUKEwizn7LG_4b1AhURNOwKHbQkA54Q9QF6BAgTEAE&biw=1920&bih=940&dpr=1)
+   
+   Resizing images and aligning them in markdown is not possible with a special syntax however it can still be done using
+   html as the following: 
+   
+   If you only need to resize an image while maintaing the original proportions: 
+   
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png"
+      style="width: 10%; height: 10%;"/>
+      
+   **Results:**
+   
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png"
+      style="width: 10%; height: 10%;"/>
+      
+   If you need to align the image to center/right/left do the following:
+   
+      <div style="text-align: center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png"
+      style="width: 10%; height: 10%;"/>
+      </div>
+       
+   **Results:**
+   
+   <!--div style="text-align: center;" >
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png"
+   style="width: 10%; height: 10%;" />
+   </div-->
    
 <!--div style="text-align: center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" style="width: 10%; height: 10%;" />
+</div>
+<div display="table-cell" height="100px" width="100px" text-align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" style="width: 10%; height: 10%;"/>
-</div-->
+</div>
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+<style>
+.verticalhorizontal {
+    display: table-cell;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+    vertical-align: middle;
+}
+</style-->
 
