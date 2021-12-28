@@ -429,7 +429,10 @@
    >   
    >   > - [ ] Updates   
 
+   Notice there is not a checkbox on the first line. It seeems that there it's not possible to make a heading with a checkbox.
+   
    --------------------
+   
    
    
 <!--div style="text-align: center;">
