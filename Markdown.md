@@ -553,37 +553,16 @@
       
    If you need to align the image to center/right/left do the following:
    
-      <div style="text-align: center;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png"
-      style="width: 10%; height: 10%;"/>
-      </div>
+      <p align="center" >
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png" 
+         style="width: 10%; height: 10%;"/>
+      </p>
        
    **Results:**
    
-   <!--div style="text-align: center;" >
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png"
-   style="width: 10%; height: 10%;" />
-   </div-->
+   <p align="center" >
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mouse-cursor-hand-pointer.svg/220px-Mouse-cursor-hand-pointer.svg.png" 
+        style="width: 10%; height: 10%;"/>
+   </p>
    
-<!--div style="text-align: center;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" style="width: 10%; height: 10%;" />
-</div>
-<div display="table-cell" height="100px" width="100px" text-align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" style="width: 10%; height: 10%;"/>
-</div>
-
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  
-<style>
-.verticalhorizontal {
-    display: table-cell;
-    height: 100px;
-    text-align: center;
-    width: 100px;
-    vertical-align: middle;
-}
-</style-->
-
+   
