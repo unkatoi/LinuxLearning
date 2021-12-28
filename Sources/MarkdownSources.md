@@ -12,4 +12,4 @@
 
 - [How to add contents table that works via links](https://www.setcorrect.com/portfolio/work11/)
 
--[Check for supported languages highlighting esp. yaml file](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) 
+- [Check for supported languages highlighting esp. yaml file](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) 
