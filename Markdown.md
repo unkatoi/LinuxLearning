@@ -765,5 +765,5 @@ There is also a **right-aligned column table** which is done like this:
 |    2    |  Jack   |
 |    3    |  Cherry |
 
-# That's it for this markdown file if find anything new worth mentioning I'll add it.
+# That's it for this markdown file if I find anything new worth mentioning I'll add it.
 # [Back to LinuxLearning Repository](https://github.com/unkatoi/LinuxLearning)
