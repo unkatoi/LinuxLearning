@@ -1,16 +1,16 @@
 # Installation issuses
 
-- [boot menu keys e.g.`esc`, `F12`, `F9`](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/InstallationIssues.md#1-problem)
+- [boot menu keys e.g.`esc`, `F12`, `F9`](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md#1-problem)
 
-- [usb not showing up in boot menu](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/InstallationIssues.md#2-problem)
+- [usb not showing up in boot menu](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md#2-problem)
 
-- [Before linux installation BIOS settings changes](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/InstallationIssues.md#3-problem)
+- [Before linux installation BIOS settings changes](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md#3-problem)
 
-- [Problem black screen OR repeated login screen](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/InstallationIssues.md#4-problem)
+- [Problem black screen OR repeated login screen](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md#4-problem)
 
-   - [printk messages OR Journal Service error](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/InstallationIssues.md#1-problem)
+   - [printk messages OR Journal Service error](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md#1-something-like-systemd1-failed-to-start-journal-service-or-printk-messages-dropped)
 
-   - [No space left on device error](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/InstallationIssues.md#1-problem)
+   - [No space left on device error](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md#2-failed-to-write-or-no-space-left-on-device-error-showed-up-while-following-videoes)
 
 ---
 
