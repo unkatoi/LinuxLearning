@@ -10,3 +10,4 @@
 
 - ### Find your boot menu key shortcut <https://www.disk-image.com/faq-bootmenu.htm>
 
+- ### [StackExchange - tty1](https://superuser.com/questions/65185/when-i-start-ubuntu-it-enters-tty1-6-instead-of-my-desktop-how-do-i-get-to-de)
