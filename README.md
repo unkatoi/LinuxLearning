@@ -6,7 +6,7 @@
 
 - [ ] Mention **linux commands** with a simple explination of each command.
 
-- [ ] Some **issuses** I had while **installing** a linux distribution.
+- [x] Some [**issuses** I had while **installing** a linux distribution.](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md)
 
 - [ ] Mention **linux keyboard shortcuts**.
 
