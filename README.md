@@ -8,7 +8,7 @@
 
 - [x] Some [**issuses** I had while **installing** a linux distribution.](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md)
 
-- [ ] Mention **linux keyboard shortcuts**.
+- [x] Mention [**linux keyboard shortcuts**](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/LinuxShortcuts.md).
 
     > Note: This will be provided in order to better comprehend linux commands & speedup the searching process for a specific command. 
 
