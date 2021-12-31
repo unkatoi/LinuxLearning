@@ -38,3 +38,20 @@
 - ### `:arrow_down:` -goes forward in commands history (without running it again **only command it self**) one command at a time.
 
 - ### `Ctrl + E` OR `Ctrl + :arrow_right:` - Moves cursor to ending of the line.
+
+- ### `Ctrl + Shift + C` - Copies the selected text from terminal.
+
+- ### `Ctrl + Shift + V` - Pastes the copied text into the terminal (where the cursor is).
+
+- ### `Ctrl + Shift + F` - Opens up finder to find any wanted text inside the terminal.
+
+- ### `F11` - Maximizes the terminal (Fullscreen) OR Leaves Fullscreen.
+
+- ### `Ctrl + Shift + T` - Opens a new tab in the same terminal window.  
+
+- ### `Ctrl + Shift + N` - Opens a **new terminal window**.  
+
+- ### `Ctrl + 0` - Resets font size to the original size. 
+
+# You can find more or add new ones in the `Settings` -> `Keyboard` -> `Application Shortcuts` 
+# OR `Right click` terminal -> `Preferences` -> `Shortcuts`
