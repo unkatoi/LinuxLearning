@@ -52,7 +52,7 @@
 
 <p align="center" >
   <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/lsCommand.png" 
-       style="width: 10%; height: 10%;"/>
+       style="width: 50%; height: 50%;"/>
 </p>
 
 ### Options: 
