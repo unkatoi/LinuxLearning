@@ -4,7 +4,7 @@
 
 ### What will be included about linux:
 
-- [ ] Mention **linux commands** with a simple explination of each command.
+- [ ] Mention [**linux commands**](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/LinuxCommands.md) with a simple explination of each command.
 
 - [x] Some [**issuses** I had while **installing** a linux distribution.](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md)
 
