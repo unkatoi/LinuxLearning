@@ -22,3 +22,13 @@
 ### This command clears all the previous commands that you've run in the current terminal window.
 
 ### However, you can still find the history of your commands.
+
+### Options:
+
+- #### `-x`
+  - **Usage:** The command is written then add the option like this: `clear -x`.
+  - **Purpose:** The option enables scrolling back through the cleared commands
+    (they're not removed like with normal `clear`).
+
+> ### Options can be found in manual page using the `man` OR `--hlep` command.
+  
