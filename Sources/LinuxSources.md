@@ -15,3 +15,5 @@
 - ### [StackExchange - tty1](https://superuser.com/questions/65185/when-i-start-ubuntu-it-enters-tty1-6-instead-of-my-desktop-how-do-i-get-to-de)
 
 - ### [Keyboard shortcuts Linux](https://linuxconfig.org/kali-linux-keyboard-shortcuts-cheat-sheet)
+
+- ### [`ls -l` command explination](https://www.garron.me/en/go2linux/ls-file-permissions.html)
