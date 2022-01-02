@@ -172,10 +172,27 @@
   <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/lsCommandOptionSmallA.png"
        style="width: 80%; height: 80%;"/>
   </p>
-  
-  
 
+## `help <command>`
 
-  
-  
+### The command is used to find out more **information about a shell command** e.g. `cd`.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/helpCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+## `cd <directory>` OR `cd <path>`
+
+### The command means **change directory**. Which is basically used to **go from the current directory(folder) to another.**  
+
+### The **`~` directory is a shortcut for `/home/username`.**
+
+### The **`..` directory refers to the previous directory.**
+
+### The root directory(folder) is the starting point for the file system. It's called root and the actual directory name is `/`.
+
+### The **home directory `/home`** contains a home folder for each user e.g. `~` is `/home/panda` 
 
