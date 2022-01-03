@@ -196,3 +196,59 @@
 
 ### The **home directory `/home`** contains a home folder for each user e.g. `~` is `/home/panda` 
 
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/cdCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+> As you can see in the example above. I've used **full path to the `SomeMiniFolder`**
+> **directory which is `~/Desktop/SomeFolder/SomeMiniFolder/`**.
+>
+> In addition, I've used the following **`cd ..` in `/home/panda/LinuxLearning/Linux`** 
+> directory and then it went back to the **parent directory which is `/home/panda/LinuxLearning`**.
+> While the **`cd ../../..`** is basicly going to the **parent directory 3 times.**
+>  It was used in **`~/Desktop/SomeFolder/SomeMiniFolder` directory then it went to `~` directory.**
+>
+> In order to **write** the directory **paths faster I use the `Tab`** on keyboard while in terminal.
+>  What it does is **complete the directory(folder) name** if there is only **one possiblity to complete it** (that's when you press on the **`Tab` once**).
+> However,  when you press on the **`Tab` twice** it will show you **all possible completions** like in the **example** above I pressed `Tab` twice and it showed me the following: 
+
+```
+bin/        dev/        lib/        libx32/     mnt/        root/       srv/        usr/        
+boot/       etc/        lib32/      lost+found/ opt/        run/        sys/        var/        
+.cache/     home/       lib64/      media/      proc/       sbin/       tmp/        
+
+```
+
+## `mkdir <directory name>`
+
+
+### The command is used to **create a directory with the name that you provide**.
+
+### The command is **short for make directory**.
+
+**Example1:** creating **one directory** called SomeFolder `mkdir SomeFolder`.
+
+**Example2:** creating **multiple directories** called dir1, dir2, dir3, dir4:
+
+ `mkdir dir1 dir2 dir3 dir4`.
+
+**Example2:** creating **nested directories** called Parent, Child, GrandChild:
+
+`mkdir Parent`
+`mkdir Parent/Child`
+`mkdir Parent/Child/GrandChild`
+
+> From Example2 notice that you can provide a **full path while creating a directory** e.g **`mkdir ~/Desktop/Parent/Child/GrandChild`**, (Assuming of course that `Parent` already exists in `Desktop` & `Child` already exists in `Parent`).
+
+### Options: 
+
+- #### `-p`
+
+  - **Usage:** `mkdir -p`.
+
+  - **Purpose:** Create **nested directories in one line (faster)**. Without the need for the directory being created before creating a directory inside it.
+
+  - **Example:** creating **nested directories** called Parent, Child, GrandChild: **`mkdir -p Parent/Child/GrandChild`**.
