@@ -252,3 +252,92 @@ boot/       etc/        lib32/      lost+found/ opt/        run/        sys/    
   - **Purpose:** Create **nested directories in one line (faster)**. Without the need for the directory being created before creating a directory inside it.
 
   - **Example:** creating **nested directories** called Parent, Child, GrandChild: **`mkdir -p Parent/Child/GrandChild`**.
+
+## `touch <file name>`
+
+### The command is mostly used to **create empty files**. Because,  when the **file** that you provide to the command **doesn't exist it creates it**. 
+
+**Example:** `touch SomeText.txt` OR `touch SomeText` do the same thing. However, `touch SomeImage.png` here will be an empty `png` file.
+
+**Example:** creating **multiple files at once** in the same directory: `touch file1 Img.png Doc.docx`.
+
+### The main purpose of the `touch` command according to the manual page is to update the access and modification time of existing files that you provide with touch.
+
+**Example:** when I use `ls -l ~/Desktop/SomeFolder` it shows me the following: **`drwxr-xr-x 2 panda panda 4096 Jan  3 23:52 SomeMiniFolder`.**
+
+**After** I use: `touch ~/Desktop/SomeFolder/SomeMiniFolder/` it shows: **`drwxr-xr-x 2 panda panda 4096 Jan  4 23:48 SomeMiniFolder`**.
+
+## `rmdir <directory name>`
+
+### The command is used to **remove an empty directory**. And you can remove multiple directories by seperating them with spaces e.g. `rmdir dir1 dir2 dir3`. **Cannot delete directories that are not empty**.
+
+## `rm <file name>`
+
+### The command is used to remove files and directories. Be careful when using `rm` because the files and directories are **deleted in an instant and cannot be recovered**.
+
+**Example:** you can delete multiple files at once `rm file1 Img.png Doc.docx`.
+
+### Options: 
+
+- #### `-v`
+
+  - **Usage:** `rm -v <file/directory name>`.
+
+  - **Purpose:** exaplains what is being done. Basically it **mentions which files or directories are being deleted** with the `rm` command. The option is also available in other command. you can also use it like this: `rm --verbose`.
+
+  **Illustration:**
+  
+  <p align="center" >
+  <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/rmCommandOptionSmallV.png"
+       style="width: 80%; height: 80%;"/>
+  </p>
+  
+- #### `-r`
+
+  - **Usage:** `rm -r <directory name>`.
+
+  - **Purpose:** remove directories and their contents recursively. Which basically means to **delete an entire folder and everything inside** them. Also notice that this also happens **in an instant, thus BE CAREFUL**.
+
+  - **Example:** `rm -r SomeFolder`.
+
+- #### `-i`
+
+  - **Usage:** `rm -i`.
+
+  - **Purpose:** ask the user(you) **before deleting each file or folder** that you provided **if you want the file to be removed or not** (type `y` for deleting the specified file or type `n` for not deleting(keeping) the specified file).
+
+  - **Example:** a directory`rm -ir SomeFolder` OR one file `rm -i AFile`.
+
+- #### `-I`
+
+  - **Usage:** `rm -I`.
+
+  - **Purpose:** **Ask** the user **once every 3 files before deleting** any file if you want the file deleted or not.
+
+  - **Example:** `rm -I SomeFolder`
+
+- #### `-d`
+
+  - **Usage:** `rm -d <Empty directory name>`.
+
+  - **Purpose:** **Delete an empty directory** and it's used to make sure that you are **not deleting a directory that has contents in it** while at the same time give you the **capabiliy for deleting a directory**(because `rm` can't delete a directory without an option added to it). 
+
+  - **Example:** `rm -d EmptyFolder`. As for `rm -d NotEmptyDir` this one gives an error.
+
+  > Does the **same** thing **as `rmdir`**.
+
+**Illustration:** For options combined
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/rmCommandOptionsIid.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+## `open <filename>`
+
+### 
+
+
+
+
+
