@@ -192,6 +192,8 @@
 
 ### The **`..` directory refers to the previous directory.**
 
+### The **`.`** directory refers to the **current directory**.
+
 ### The root directory(folder) is the starting point for the file system. It's called root and the actual directory name is `/`.
 
 ### The **home directory `/home`** contains a home folder for each user e.g. `~` is `/home/panda` 
@@ -335,7 +337,7 @@ boot/       etc/        lib32/      lost+found/ opt/        run/        sys/    
 
 ## `open <filename>`
 
-### 
+### The command opens a file or a directory outside the terminal (A graphical interface pops up)
 
 
 
