@@ -351,6 +351,29 @@ Same but with `xdg-open`:
 
 ### If you don't have the command you can install it with `sudo apt install xdg-utils`
 
+## `mv <file name> <optiona1: the file's new location OR option2 file's new name>`
+
+### The command is used to **move files from** their **current location to another** OR  **rename a file**.
+
+### Options: 
+
+- #### `-v`
+
+  - **Usage:** `mv -v <file name> <new name OR new location>`.
+
+  - **Purpose:** exaplains what is being done. Basically it **mentions the file  that is being renamed or relocated** with the `mv` command.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/mvCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+> ### As you see in the example above you can **move / rename multiple files** with one command as long you provide the path needed for the file.
+> 
+> I've also **tried using option -i** (interactive) however it **doesn't work** in case it does I might add it in the options above.
+
 
 
 
