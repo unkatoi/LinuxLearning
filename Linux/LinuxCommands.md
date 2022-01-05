@@ -337,7 +337,19 @@ boot/       etc/        lib32/      lost+found/ opt/        run/        sys/    
 
 ## `open <filename>`
 
-### The command opens a file or a directory outside the terminal (A graphical interface pops up)
+### The command opens a file or a directory or an URL outside the terminal (A graphical interface pops up). 
+
+### The command might not work for some linux distributions and would have to use `xdg-open` which is the actual command that exists in bash. 
+
+**Example:** with `open`: 
+
+`open someText.txt`, `open ADoc.docx`, `open https://www.duckduckgo.com`
+
+Same but with `xdg-open`:
+
+`xdg-open someText.txt`, `xdg-open ADoc.docx`, `xdg-open https://www.duckduckgo.com`
+
+### If you don't have the command you can install it with `sudo apt install xdg-utils`
 
 
 
