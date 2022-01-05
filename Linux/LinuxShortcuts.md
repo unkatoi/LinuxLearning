@@ -57,7 +57,7 @@
 
 - ### `Ctrl + ⬅️/➡️:` - moves cursor backward(⬅️) or forward(➡️) one word (each sequence of letters and/or numbers seperated by characters) at a time.
 
-- ### `Tab` - completes a text(file path) that you've written if you press once (I've noticed that it doesn't work with command completions only with files and folders). If you press twice it shows all possible completions for the path you've written for examples [check picture and in notes bellow](https://github.com/unkatoi/LinuxLearning/edit/LinuxFolder/Linux/LinuxShortcuts.md)
+- ### `Tab` - completes a text(file path) that you've written if you press once (I've noticed that it doesn't work with command completions only with files and folders). If you press twice it shows all possible completions for the path you've written for examples [check picture and in notes bellow](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/LinuxCommands.md#the-home-directory-home-contains-a-home-folder-for-each-user-eg--is-homepanda)
 
 # You can find more or add new ones in the `Settings` -> `Keyboard` -> `Application Shortcuts` 
 # OR `Right click` terminal -> `Preferences` -> `Shortcuts`
