@@ -27,17 +27,17 @@
 
 - ### `Ctrl and -` - Zoom out - Font becomes smaller -.
 
-- ### `Ctrl + A` OR `Ctrl + :arrow_left:` - Moves cursor to beginning of the line.
+- ### `Ctrl + A` `Ctrl + ⬅️:` - Moves cursor to beginning of the line.
 
-- ### `Ctrl + B` OR `:arrow_left:` - moves cursor backward one character at a time.
+- ### `Ctrl + B` OR `⬅️:` - moves cursor backward one character at a time.
 
-- ### `Ctrl + F` OR `:arrow_right:` - moves cursor forward one character at a time.
+- ### `Ctrl + F` OR `➡️:` - moves cursor forward one character at a time.
 
-- ### `:arrow_up:` - goes back in commands history (without running it again **only command it self**) one command at a time.
+- ### `⬆️` - goes back in commands history (without running it again **only command it self**) one command at a time.
 
-- ### `:arrow_down:` -goes forward in commands history (without running it again **only command it self**) one command at a time.
+- ### `⬇️` -goes forward in commands history (without running it again **only command it self**) one command at a time.
 
-- ### `Ctrl + E` OR `Ctrl + :arrow_right:` - Moves cursor to ending of the line.
+- ### `Ctrl + E` OR `Ctrl + ➡️` - Moves cursor to ending of the line.
 
 - ### `Ctrl + Shift + C` - Copies the selected text from terminal.
 
@@ -52,6 +52,12 @@
 - ### `Ctrl + Shift + N` - Opens a **new terminal window**.  
 
 - ### `Ctrl + 0` - Resets font size to the original size. 
+
+- ### `Shift + ⬆️/⬇️`  - Scrolls up(⬆️) or down(⬇️) in the terminal window one line at a time. (if you hold the keys it will keep scrolling)
+
+- ### `Ctrl + ⬅️/➡️:` - moves cursor backward(⬅️) or forward(➡️) one word (each sequence of letters and/or numbers seperated by characters) at a time.
+
+- ### `Tab` - completes a text(file path) that you've written if you press once (I've noticed that it doesn't work with command completions only with files and folders). If you press twice it shows all possible completions for the path you've written for examples [check picture and in notes bellow](https://github.com/unkatoi/LinuxLearning/edit/LinuxFolder/Linux/LinuxShortcuts.md)
 
 # You can find more or add new ones in the `Settings` -> `Keyboard` -> `Application Shortcuts` 
 # OR `Right click` terminal -> `Preferences` -> `Shortcuts`
