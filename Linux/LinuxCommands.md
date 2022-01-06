@@ -403,5 +403,74 @@ Same but with `xdg-open`:
 
 ### It's worth mentioning that you can Also add full path in case you want to c**hange the copy's file location** like I did above `cp -v FSCopyDir/F2/ ~/Desktop/`. Also the command **did not work** because F2 is a directory which you need to **add the `-r`** option for (in order to copy it).
 
+## `head <file name>`
 
+### The command **prints** in the terminal the **first ten(10) lines of the file** that you provide.
 
+### Options: 
+
+- #### `-n`
+
+  - **Usage:** `head -n <N> <file name>`.
+
+  - **Purpose:** **Prints the first N number** of lines that you provided in the command. e.g. **`head -n 50 LongText.txt`** prints the **first 50** lines from `LongText.txt` file into the terminal.
+  
+- #### `-v`
+
+  - **Usage:** `head -v <file name>`.
+
+  - **Purpose:** **Prints the file's name** before printing the first 10 lines that are inside the file. e.g. `==> README.md <== ` as you see bellow
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/headCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+## `tail <file name>`
+
+### The command **prints** in the terminal the **last ten(10) lines of the file** that you provide.
+
+### Options: 
+
+- #### `-n`
+
+  - **Usage:** `tail -n <N> <file name>`.
+
+  - **Purpose:** **Prints the last N number** of lines that you provided in the command. e.g. **`tail -n 50 LongText.txt`** prints the **last 50** lines from `LongText.txt` file into the terminal.
+  
+- #### `-f`
+
+  - **Usage:** `tail -f <file name>`.
+
+  - **Purpose:** Doesn't stop reading from the file when it reaches the end of file. Instead it waits for additional data to be added to the file.
+
+> ### For some reason this option **doesn't work on linux** but it does **work on macOS**. However, there is another **alternative which is `-F` option** which is similar but instead of adding new data to the end of file it **reprints the final 10 lines until you stop it with `Ctrl + C`**. Check example bellow
+
+- #### `-v`
+
+  - **Usage:** `tail -v <file name>`.
+
+  - **Purpose:** **Prints the file's name** before printing the last 10 lines that are inside the file. e.g. `==> README.md <== ` as you see bellow
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/tailCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+**Illustration: `-F` before editing file** 
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/tailCommandOptionF.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+**Illustration: `-F` after editing file** 
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/tailCommandOptionF2.png"
+     style="width: 80%; height: 80%;"/>
+</p>
