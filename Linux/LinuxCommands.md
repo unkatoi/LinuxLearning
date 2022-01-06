@@ -374,7 +374,34 @@ Same but with `xdg-open`:
 > 
 > I've also **tried using option -i** (interactive) however it **doesn't work** in case it does I might add it in the options above.
 
+## `cp <name> <copy's name>`
 
+### The command is used to copy files or directories into a new file or directory it can also be in a different location.
+
+### Options: 
+
+- #### `-r`
+
+  - **Usage:** `cp -r <dir> <dir cp>`.
+
+  - **Purpose:** **Copy the entire directory** including all the files and directories that it contains
+
+- #### `-v`
+
+  - **Usage:** `cp -v `.
+
+  - **Purpose:** Explain what is being done. Check example
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/cpCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+### As you can see in the example you use the command as follows **`cp <name of a file> <the copy's name>`**. For **directories `cp -r <name of a dir> <the copy's name>`**.
+
+### It's worth mentioning that you can Also add full path in case you want to c**hange the copy's file location** like I did above `cp -v FSCopyDir/F2/ ~/Desktop/`. Also the command **did not work** because F2 is a directory which you need to **add the `-r`** option for (in order to copy it).
 
 
 
