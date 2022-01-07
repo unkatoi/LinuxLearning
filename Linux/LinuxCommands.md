@@ -504,5 +504,29 @@ Same but with `xdg-open`:
      style="width: 80%; height: 80%;"/>
 </p>
 
-> ### As you look at the image above you see that each time I use **`>`** operator the file's contents are **deleted**. However, when I use **`>>`** the contents are **added** .
+> ### As you look at the image above you see that each time I use **`>`** operator the file's contents are **deleted**. However, when I use **`>>`** the contents are **added**.
+> 
+> For **both operators** if the **file doesn't exist it will create it** and continues the redirection of command's output to the new file.
+
+## `cat <file name>`
+
+### The main purpose of the command is to concatenate files. e.g. `cat File1 File2` prints everything inside the first file then the second file (at the same time no seperation between the files) onto the terminal.
+
+### The command can print the entire file's contents. e.g. `cat AFile` prints everything inside it onto the terminal.
+
+### Options: 
+
+- #### `-n`
+
+  - **Usage:** `cat -n <File name> <More files if needed>`.
+
+  - **Purpose:** Prints line numbers on the left side of the line.
+  
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/catCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
 
