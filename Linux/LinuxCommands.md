@@ -474,3 +474,35 @@ Same but with `xdg-open`:
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/tailCommandOptionF2.png"
      style="width: 100%; height: 100%;"/>
 </p>
+
+## `date`
+
+### The command **prints the current date and time** e.g. `Fri 07 Jan 2022 20:24:24 UTC`. You can format the date to suit your needs check the format with `man date`
+
+### Options: 
+
+- #### `-u`
+
+  - **Usage:** `date -u`.
+
+  - **Purpose:** Print the date and time based on the universal clock.
+
+## `<command> > <file location (inlcudes name)>`
+
+### The is not exactly a command it's a redirecting standard output operator. What it basically does is take the **command's output** (text that the command on the left side prints) and **redirect** (instead of printing it into the terminal) it **into the file** (that you provide on the right side).
+
+### **Important:** the operator **replaces everything** that is in the given file with the **command's output**. It **deletes file's contents then adds the command's output**.
+
+## `<command> >> <file location (inlcudes name)>`
+
+### It's a redirecting standard output operator similar to the earlier one. However, it **doesn't delete** the file's **contents** it **appends(adds) the command's output to the end of the file**. 
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/RedirectionOperators.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+> ### As you look at the image above you see that each time I use **`>`** operator the file's contents are **deleted**. However, when I use **`>>`** the contents are **added** .
+
