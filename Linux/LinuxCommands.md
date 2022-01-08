@@ -563,3 +563,18 @@ Same but with `xdg-open`:
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/lessCommand3.png"
      style="width: 80%; height: 80%;"/>
 </p>
+
+## `echo <text>`
+
+### The command ***prints out whatever text you provide***. 
+
+**Example:** `echo "This is some text"`
+
+**Output:** This is some text
+
+### It might be useful when you one to add a line for a file without the need to open it and edit.
+
+**Example:** `echo "My repository name is LinuxLearning" >> GitInfo.txt`
+
+**Output:** it's added to `GitInfo` file and if it doesn't exist it is created and then added the text *My repository name is LinuxLearning*.
+
