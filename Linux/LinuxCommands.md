@@ -578,6 +578,25 @@ Same but with `xdg-open`:
 
 **Output:** it's added to `GitInfo` file and if it doesn't exist it is created and then added the text *My repository name is LinuxLearning*.
 
+### Options: 
+
+- #### `-e`
+
+  - **Usage:** `echo -e "Some text"`.
+
+  - **Purpose:** The option provides more possiblities to modify text. For instance, you can add new lines while the text is written in one line e.g. `"First line.\n Second line"`. You can check what are the **escape sequences**  that can be used with this command **`man echo`**. 
+
+**Example:** `echo -e "First line \tHere is a tab.\nNew line"`
+
+**Output:**
+
+```
+First line      Here is a tab.
+New line    
+```
+
+> Might change based on your tab e.g. mine is 5 spaces
+
 ## `wc <file name>`
 
 ### The command is a shortcut for word count. It prints the number of words, line, bytes of a file. Output is `lines words bytes <name of file>`
@@ -624,4 +643,72 @@ Same but with `xdg-open`:
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/wcCommandAndPiping.png"
      style="width: 80%; height: 80%;"/>
 </p>
+
+## `sort <file name>`
+
+### The command sorts the file alphabetically (`A` -> `Z`) it's also case sensitive e.g. `S` is before `s`.
+
+### If you have text on ***one line*** that you want it to be sorted it ***won't work*** it sorts only if the ***text is on seperate lines***.
+
+### Options: 
+
+- #### `-f`
+
+  - **Usage:** `sort -f <file name>`.
+
+  - **Purpose:** ignores the case of a letter (samll and capital letters are treated in the same way).
+
+- #### `-n`
+
+  - **Usage:** `sort -n <file name>`.
+
+  - **Purpose:** sorts the numbers in an ascending order.
+
+**Example:** `echo -e "100 \n90 \n95 \n89 \n91" | sort -n`
+
+**Output:** 
+
+```
+89 
+90 
+91
+95 
+100 
+```
+
+- #### `-r`
+
+  - **Usage:** `sort -r <file name>`.
+
+  - **Purpose:** reverses the order from ascending to descending. 
+
+**Example:** `echo -e "100 \n90 \n95 \n89 \n91" | sort -nr`
+
+**Output:** 
+
+```
+100 
+95 
+91
+90 
+89 
+```
+
+- #### `-u`
+
+  - **Usage:** `sort -u <file name>`.
+
+  - **Purpose:** does not repeat the same numbers/words. Only unique text remains.
+
+**Example:** `echo -e "90 \n100 \n90 \n95 \n89 \n91 \n90" | sort -nu`
+
+**Output:** 
+
+```
+89 
+90 
+91 
+95 
+100
+```
 
