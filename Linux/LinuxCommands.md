@@ -578,3 +578,37 @@ Same but with `xdg-open`:
 
 **Output:** it's added to `GitInfo` file and if it doesn't exist it is created and then added the text *My repository name is LinuxLearning*.
 
+## `wc <file name>`
+
+### The command is a shortcut for word count. It prints the number of words, line, bytes of a file. Output is `lines words bytes <name of file>`
+
+**Example:** `wc README.md`: 
+
+`21  107 1057 README.md`
+
+### Options: 
+
+- #### `-l`
+
+  - **Usage:** `wc -l <file name>`.
+
+  - **Purpose:** prints only the **number of lines** . 
+
+- #### `-w`
+
+  - **Usage:** `wc -w <file name>`.
+
+  - **Purpose:** prints only the **number of words** . 
+
+- #### `-c`
+
+  - **Usage:** `wc -c <file name>`.
+
+  - **Purpose:** prints only the **number of bytes** . 
+
+- #### `-m`
+
+  - **Usage:** `wc -m <file name>`.
+
+  - **Purpose:** prints only the **number of characters** (letters, numbers, symbols). 
+
