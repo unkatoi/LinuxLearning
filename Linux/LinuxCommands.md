@@ -529,4 +529,37 @@ Same but with `xdg-open`:
      style="width: 80%; height: 80%;"/>
 </p>
 
+## `less <file name>`
 
+### The command opens the contents of a file inside a user interface similar to that of a manual page.
+
+### In order to **scroll** through it you use:
+
+-  **arrow keys(⬆️/⬇️)** for **one line up/down** at a time.
+
+- **Space** for ***one page down*** at a time.
+
+- **`B`** for ***one page up*** at a time.
+
+- **`Shift + G`** for going to the **end of file**.
+
+- **`G`** for going to the **begining of file**.
+
+### In order to **search** for things inside that file you use: `/<what you want to search for>` while inside of the page.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/lessCommand1.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/lessCommand2.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/lessCommand3.png"
+     style="width: 80%; height: 80%;"/>
+</p>
