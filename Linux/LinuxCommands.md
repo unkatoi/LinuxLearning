@@ -612,3 +612,16 @@ Same but with `xdg-open`:
 
   - **Purpose:** prints only the **number of characters** (letters, numbers, symbols). 
 
+### Piping:
+
+### It's taking the *output of a command*  and pass it as an *input for another command*. 
+
+### It's done using the `|` character. *`<command 1> | <command 2>`*.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/wcCommandAndPiping.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
