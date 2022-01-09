@@ -779,3 +779,60 @@ New line
      style="width: 80%; height: 80%;"/>
 </p>
 
+## Expansion
+
+### Giving a symbol another meaning similar to using a shortcut where `rm` is replaced with `remove`. It's also similar to a variable where a specific name represents a value. e.g. `~` is varries from user to another since it's `/home/username`.
+
+### Symbols:
+
+#### `$<variable name>` it refers to the value that a variable holds. Check example bellow:
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxLearning/Pictures/ExpansionsDollar.png"
+     style="width: percentage%; height: percentage%;"/>
+</p>
+
+> The variable name comes right after the `$` as shown in the image `USER` is the username there are other variables that might be added when I find them.
+
+#### `*` it refers to every path in the current directory(folder). Check example bellow:
+
+#### `?` it refers to any character that holds that specific place. Check example bellow:
+
+#### `{<comma seperated values>}` it seperates all the values given. e.g. `value1 value2 value3`. Check example bellow:
+
+**Illustration:**
+
+| Color | Representation |
+| -----  | ----------- |
+| **Green** | Something **constant** (that doesn't change) doesn't include Expansion |
+| **Blue** | What the **`*`** represents|
+| **Red** | What the `?` represents |
+
+> As you see the **`*`** in the first line refers to any **text that comes at any length**. `*` can be `Linux`, `Markdown.md`, `README.md` ..
+> 
+> The **`??`** in the second command it represents any **one character** t
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/branch/Pictures/ExpansionsNoDollarPart1.png"
+     style="width: percentage%; height: percentage%;"/>
+</p>
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/branch/Pictures/ExpansionsNoDollarPart2.png"
+     style="width: percentage%; height: percentage%;"/>
+</p>
+
+**Illustration:**
+
+> You **cannot add spaces between the comma seperated values** as you see in the output of the first command it creates something that was not intended e.g. `App.{cs`, `csproj,` ..
+>
+> However, when I **do not add spaces** in the **second command** it created the **files called `App`** but with a **different type** one is `cs` (programming language C#) `txt`..
+
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/branch/Pictures/ExpansionCurlyBrackets.png"
+     style="width: percentage%; height: percentage%;"/>
+</p>
+
