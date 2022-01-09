@@ -712,3 +712,70 @@ New line
 100
 ```
 
+## `uniq <file name>`
+
+### The command ***ignores consecutive repeated(adjacent[^1] matching lines)*** lines that contain the same text on them, displaying only unique text.
+
+[^1]: lines that are close to each other.
+
+### The command is used ***more efficently with `sort`*** since it gathers all the matching lines next to each other and uniq can remove the duplicates.
+### Options: 
+
+- #### `-u`
+
+  - **Usage:** `uniq -u`.
+
+  - **Purpose:** The option displays only unique lines. Lines that are not repeated consecutively(adjacent[^1] matching lines).
+
+  > Notice the picture down bellow ends with `uniq -u`. 
+  > The `option1` that was repeated 3 times in a row 
+  > was omitted completely in the result, however duplicates on non-adjacent[^1] lines remain
+
+- #### `-i`
+
+  - **Usage:** `uniq -i`.
+
+  - **Purpose:** The option ignores the case of the letter treats `S` or `s` the same.
+
+  > Notice the picture down bellow ends with `uniq -i`. 
+  > When I added `Option1` to the echo command it ignored the case `Option1` is same as `option1` that was before it.
+  >
+  > However, this time when I changed case again it considered it to be a different word. That is why it **shows at the end `option1` twice**.
+
+- #### `-d`
+
+  - **Usage:** `uniq -d`.
+
+  - **Purpose:** The option displays only duplicate/repeated(non-unique) lines. Lines that are repeated consecutively(adjacent[^1] matching lines).
+
+  > Notice the picture down bellow ends with `uniq -d`.
+  > 
+  > The command printed `option1` that occurred 3 times without mentioning the `option1` that occurred twice. That might be because the exact same text cannot be mentioned more than once when it's displaying duplicates. 
+
+- #### `-c`
+
+  - **Usage:** `uniq -c`.
+
+  - **Purpose:** The option displays the number of occurrences(how many times a line was repeated) before displaying the line itself.
+
+  > Notice the picture down bellow ends with `uniq -c`.
+  >
+  > As you see the number of each repetition is displayed on the left side.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/uniqCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/uniqCommandSort.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/Pictures/uniqCommandSortPiping.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
