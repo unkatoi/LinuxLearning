@@ -790,7 +790,7 @@ New line
 **Illustration:**
 
 <p align="center" >
-<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxLearning/Pictures/ExpansionsDollar.png"
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionsDollar.png"
      style="width: percentage%; height: percentage%;"/>
 </p>
 
@@ -815,12 +815,12 @@ New line
 > The **`??`** in the second command it represents any **one character** t
 
 <p align="center" >
-<img src="https://github.com/unkatoi/LinuxLearning/blob/branch/Pictures/ExpansionsNoDollarPart1.png"
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionsNoDollarPart1.png"
      style="width: percentage%; height: percentage%;"/>
 </p>
 
 <p align="center" >
-<img src="https://github.com/unkatoi/LinuxLearning/blob/branch/Pictures/ExpansionsNoDollarPart2.png"
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionsNoDollarPart2.png"
      style="width: percentage%; height: percentage%;"/>
 </p>
 
@@ -832,7 +832,7 @@ New line
 
 
 <p align="center" >
-<img src="https://github.com/unkatoi/LinuxLearning/blob/branch/Pictures/ExpansionCurlyBrackets.png"
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionCurlyBrackets.png"
      style="width: percentage%; height: percentage%;"/>
 </p>
 
