@@ -836,3 +836,6 @@ New line
      style="width: percentage%; height: percentage%;"/>
 </p>
 
+## `diff <file1> <file2>`
+
+### The command prints the difference between 2 files.
