@@ -775,7 +775,7 @@ New line
 </p>
 
 <p align="center" >
-<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/Pictures/uniqCommandSortPiping.png"
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/uniqCommandSortPiping.png"
      style="width: 80%; height: 80%;"/>
 </p>
 
