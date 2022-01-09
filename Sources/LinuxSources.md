@@ -17,3 +17,5 @@
 - ### [Keyboard shortcuts Linux](https://linuxconfig.org/kali-linux-keyboard-shortcuts-cheat-sheet)
 
 - ### [`ls -l` command explination](https://www.garron.me/en/go2linux/ls-file-permissions.html)
+
+- ### [Linux bash diff command explination](https://www.geeksforgeeks.org/diff-command-linux-examples/)
