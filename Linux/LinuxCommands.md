@@ -838,4 +838,138 @@ New line
 
 ## `diff <file1> <file2>`
 
-### The command prints the difference between 2 files.
+### The command prints the *difference between 2 files line by line* not word by word. And **provides instructions** on how to make the **2 files identical**.
+
+### Characters that are used to provide instructions:
+
+| **Character**(Symbol) | **Meaning** |
+| ----------------- | ------- |
+| **`a`** | **add** |
+| **`c`** | **change** |
+| **`d`** | **delete** |
+| **`<`** | It precedes a **line that is from the first file** |
+| **`>`** | It precedes a **line that is from the second file** |
+| **`---`** | **Seperates** between what's in file1(above) and file2(bellow) |
+
+
+### At the first line diff would output either nothing (in case no differences are found). 
+
+### Or it outputs the following:
+
+- **line numbers** that correspond(refer) to the **first file**.
+
+- A **special symbol** (`a`/`c`/`d`) that was mentioned in the **above table**.  
+
+- **line numbers** that correspond(refer) to the **second file**.
+
+**Illustration's explination:**
+
+**`3,4d2`** means **delete lines 3,4** from the **first file** to **match** what's **after line 2** from the **second file**.
+
+**`6,7c4,10`** means **change lines 6,7** from **first file** to **match lines from 4 to 10**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/diffCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+### Options: 
+
+- #### `-c`
+
+  - **Usage:** `diff -c <file1> <file2>`.
+
+  - **Purpose:** The options displays information in **context mode**.
+
+**Illustration's explination:**
+
+| **Character**(Symbol) | **Meaning** |
+| ----------------- | ------- |
+| **`***`** | It starts the **first line indicates** that it's **file1** |
+| **`---`** | It starts the **second line indicates** that it's **file2** |
+| **`***************`** | **Seperator** line |
+| **`*** n,m ***`** | Bellow it **lines n to m** are shown from **file1** |
+| **`--- n,m ---`** | Bellow it **lines n to m** are shown from **file2** |
+
+The first two(2) lines display the both files' path(location) and modification date and time (on seperate lines as in the picture).
+
+**Bellow `*** 1,7 ***`:**
+
+The lines preceded with **two spaces**(`  `) if has to **remain the same(unchanged)**.
+
+The lines preceded with **`- `** has to be **deleted from the first file** in order **to match the second file**. Thus, `mv`, `git add` need to be deleted from file1.
+
+The lines preceded with **`! `** has to be **changed from the first file with** the lines preceded width **`! `** from the **second file** in order **to match the second file**. Thus, `man`, `open` in file1 need to be changed to `sort`..`man` that are in file2.
+
+**Bellow `--- 1,10 ---`:**
+
+The lines preceded with **`+ `** has to be **added from the second file to the first file**. Which are not in this example.
+
+**`3,4d2`** means **delete lines 3,4** from the **first file** to **match** what's **after line 2** from the **second file**.
+
+**`6,7c4,10`** means **change lines 6,7** from **first file** to **match lines from 4 to 10**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/diffCommandContext.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-u`
+
+  - **Usage:** `diff -u <file1> <file2>`.
+
+  - **Purpose:** The options displays information in **unified mode**. Meaning that **redundant[^2] information are not displayed**. Very similar to context mode.
+
+[^2]: something that is not needed or not important.
+
+**Illustration's explination:**
+
+| **Character**(Symbol) | **Meaning** |
+| ----------------- | ------- |
+| **`---`** | It starts the **first line indicates** that it's **file1** |
+| **`+++`** | It starts the **second line indicates** that it's **file2** |
+| **`@@ -a,b +x,y @@`** | Bellow it **lines a to b** are shown from **file1** After that **lines x to y** are shown from **file2**|
+
+Bellow  **`@@ -1,7 +1,10 @@`** it's the same as with `-c` option
+
+this time however **`-`** is to **delete from file1** and **`+`** is to **add from file2 to file1**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/diffCommandUnified.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-i`
+
+  - **Usage:** `diff -i <file1> <file2>`.
+
+  - **Purpose:** The option makes the command case in-sensitive. Doesn't ask to change if the same word is used but with different letter case (e.g. `ECHO` `echo`).
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/diffCommandOptionI.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-y`
+
+  - **Usage:** `diff -y <file1> <file2>`.
+
+  - **Purpose:** Output the result of **`diff` side by side** **first file** on the **left side** of the screen while the **second file** is on the **right side** of the screen.
+
+> While using this option(`-y`) I noticed that I cannot use it with `-c/-u`.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/diffCommandOptionY.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
