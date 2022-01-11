@@ -791,7 +791,7 @@ New line
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionsDollar.png"
-     style="width: percentage%; height: percentage%;"/>
+     style="width: 80%; height: 80%;"/>
 </p>
 
 > The variable name comes right after the `$` as shown in the image `USER` is the username there are other variables that might be added when I find them.
@@ -816,12 +816,12 @@ New line
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionsNoDollarPart1.png"
-     style="width: percentage%; height: percentage%;"/>
+     style="width: 80%; height: 80%;"/>
 </p>
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionsNoDollarPart2.png"
-     style="width: percentage%; height: percentage%;"/>
+     style="width: 80%; height: 80%;"/>
 </p>
 
 **Illustration:**
@@ -833,7 +833,7 @@ New line
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionCurlyBrackets.png"
-     style="width: percentage%; height: percentage%;"/>
+     style="width: 80%; height: 80%;"/>
 </p>
 
 ## `diff <file1> <file2>`
@@ -973,3 +973,66 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
      style="width: 80%; height: 80%;"/>
 </p>
 
+## `find`
+
+### The command without any options is used to ***find everything inside the file or directory*** that you provide with the command. You could also add ***multiple files and/or directories***.
+
+**Example:** `find Linux/ Markdown.md Pictures/ Sources` while inside `~/LinuxLearning`. **Outputs all** the files and directories **inside `Linux`, `Pictures`, `Sources`** (provided directories, while `Markdown.md` is outputted too however it's a file so there are no other files inside it)
+
+> The **`find` command** by it self outputs everything inside the current directory. To be more specific the find command is **interpreted as `find .`**. Where The **`.`** directory refers to the **current directory**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+### Options: 
+
+- #### `-name`
+
+  - **Usage:** `find <directory> -name 'name (can include Expansions *, ?, )'`.
+
+  - **Purpose:** The option looks for the **exact name inside the given directory**.
+
+> You could use **`-iname`** if want to make the search **case-insensitive**. e.g. **`-iname '*L*'`** would search for any file and/or folder with **letter `L` or `l`** inside it. **Check picture for `-type`**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandOptionName.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-type`
+
+  - **Usage:** `find -type <type>`.
+
+  - **Purpose:** The option filters the `find` command to either **look for directories only** which is done by replacing **`<type>` with `d`**. Or look for **files only** which is done by replacing **`<type>` with `f`**.
+
+- #### `-not`
+
+  - **Usage:** `find <directory> -not <could be name / type ..>`.
+
+  - **Purpose:** The option **excludes the options that follows** it. e.g. `find ~/LinuxLearning -name '*.*' -not -name '*.png'`. This command outputs a file that has a `.` however does not include `.png`.
+
+- #### `-path`
+
+  - **Usage:** `find <directory> -path 'name (can include Expansions *, ?, )'`.
+
+  - **Purpose:** The option looks for the **exact name** in the **full path** to the current directory (which includes the current directory's path and other paths inside the given directory).
+
+**Illustration: for `path`**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandNameVsPath.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+**Illustration for difference between `-path` and `-name`**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandNameVsPath.png"
+     style="width: 80%; height: 80%;"/>
+</p>
