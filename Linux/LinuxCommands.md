@@ -766,17 +766,17 @@ New line
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/uniqCommand.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/uniqCommandSort.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/uniqCommandSortPiping.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 ## Expansion
@@ -833,7 +833,7 @@ New line
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/ExpansionCurlyBrackets.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 ## `diff <file1> <file2>`
@@ -872,7 +872,7 @@ New line
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/diffCommand.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 ### Options: 
@@ -955,7 +955,7 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/diffCommandOptionI.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 - #### `-y`
@@ -1036,14 +1036,14 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandNameVsPath.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 **Illustration for difference between `-path` and `-name`**
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandNameVsPath.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 - #### `-or`
@@ -1101,7 +1101,7 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandOptionsTimeDelete.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 - #### `-exec`
@@ -1114,7 +1114,7 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 
 <p align="center" >
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandOptionExecute.png"
-     style="width: 80%; height: 80%;"/>
+     style="width: 100%; height: 100%;"/>
 </p>
 
 
