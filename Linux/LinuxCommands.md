@@ -1017,6 +1017,15 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 
   - **Purpose:** The option **excludes the options that follows** it. e.g. `find ~/LinuxLearning -name '*.*' -not -name '*.png'`. This command outputs a file that has a `.` however does not include `.png`.
 
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandNotType.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+
+
 - #### `-path`
 
   - **Usage:** `find <directory> -path 'name (can include Expansions *, ?, )'`.
@@ -1036,3 +1045,76 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandNameVsPath.png"
      style="width: 80%; height: 80%;"/>
 </p>
+
+- #### `-or`
+
+  - **Usage:** `find <dir> <option1> -or <option2>`.
+
+  - **Purpose:** The option is used to **find multiple things** at the **same time**. it finds **all the cases** in which **one** of the **options occur** and prints it.
+  
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandOptionOr.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-size`
+
+  - **Usage:** `find <dir> -size <sign><number><unit>`.
+
+  - **Purpose:** The option is used to find **files' sizes** based on the size you are **looking for**. It can be very handy when looking for files to delete in order to free some space.
+
+**Illustration's explination:**
+
+| Symbol | Meaning |
+| ----------- | ----------- |
+| **`+`** | **Higher than** the number on it's left e.g. `+10b` more than 10 bytes. |
+| **`-`** | **Lower than** the number on it's left e.g. `+10b` lower than 10 bytes. |
+| **`b`** | A **unit** that represents **bytes** |
+| **`k`** | A **unit** that represents **kilo bytes** |
+| **`M`** | A **unit** that represents **mega bytes** |
+| **`G`** | A **unit** that represents **giga bytes** |
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandOptionSize.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-mtime`
+
+  - **Usage:** `find <dir> -mtime <sign><number>`.
+
+  - **Purpose:** The option is used to **search files** based on their **last modified date**.
+
+> This is a positional option you can look more about it in `man find`
+
+- #### `-delete`
+
+  - **Usage:** `find <dir> <options if needed> -delete`.
+
+  - **Purpose:** The option is used to **delete** the **files and/or directories that you find** (using `find`) which you do not need them anymore.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandOptionsTimeDelete.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-exec`
+
+  - **Usage:** `find <dir> <options if needed> -exec <command> {} \;`.
+
+  - **Purpose:** The option is used to **execute a command** on **each file** that was found **with the `find`**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/findCommandOptionExecute.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+
