@@ -1117,4 +1117,51 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
      style="width: 80%; height: 80%;"/>
 </p>
 
+## `grep <text> <file>`
+
+### The `grep` command stands for global regular expression print
+
+### The command is used to find/search specific text inside a file.
+
+- #### `-n`
+
+  - **Usage:** `grep -n <text> <file>`.
+
+  - **Purpose:** The option **displays the line numbers** to each line that matches the text you asked for.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/grepCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-C`
+
+  - **Usage:** `grep -C <number> <text> <file>`.
+
+  - **Purpose:** The option refers to **context**. Basically it adds some context to the displayed output . Which means that **adds the specified number of lines before and after the founded text.**
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/grepCommandOptionC.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-i`
+
+  - **Usage:** `uniq -i`.
+
+  - **Purpose:** The option ignores the case of the letter treats `K` or `k` the same.
+
+- #### `-r`
+
+  - **Usage:** `grep -r "text" <dir>`.
+
+  - **Purpose:** The option enables you to **search for** a **text** inside **all the files** in the **specified directory or** in the **current directory** if you don't specify one.
+
+> It is possible to use regular expressions with `grep`. However, I don't know how to use them exactly. 
+>
+> Usage: `grep -E -o "regex"`. `-o` refers to only matching.
 
