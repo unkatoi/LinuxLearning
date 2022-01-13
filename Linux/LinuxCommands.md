@@ -712,6 +712,14 @@ New line
 100
 ```
 
+- #### `-h`
+
+  - **Usage:** `sort -h <file name>`.
+
+  - **Purpose:** The option **sorts** the lines of a file or a given text from another command **based on** their **size units** from **lowest to highest** (Bytes to Giga Bytes)
+
+
+
 ## `uniq <file name>`
 
 ### The command ***ignores consecutive repeated(adjacent[^1] matching lines)*** lines that contain the same text on them, displaying only unique text.
@@ -1164,4 +1172,38 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 > It is possible to use regular expressions with `grep`. However, I don't know how to use them exactly. 
 >
 > Usage: `grep -E -o "regex"`. `-o` refers to only matching.
+
+## `du <dir>`
+
+### The command is used to find the ***sizes of files and directories*** on the computer. If you don't add `<dir>` the default one is `.`(current directory). 
+
+### The command stands for ***disk usage***.
+
+### Options: 
+
+- #### `-m`
+
+  - **Usage:** `du -m <dir>`.
+
+  - **Purpose:** The option is used to **display the sizes in mega bytes**.
+
+- #### `-k`
+
+  - **Usage:** `du -k <dir>`.
+
+  - **Purpose:** The option is used to **display the sizes in kilo bytes**.
+
+- #### `-b`
+
+  - **Usage:** `du -b <dir>`.
+
+  - **Purpose:** The option is used to **display the sizes in bytes**.
+
+> **did not find an option for giga bytes** however it might be available somewhere.
+
+- #### `-h`
+
+  - **Usage:** `du -h <dir>`.
+
+  - **Purpose:** The option is used to **display the sizes in the most suited unit** stands for **human readable**. e.g. 1000M = 1G ..
 
