@@ -1207,3 +1207,36 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 
   - **Purpose:** The option is used to **display the sizes in the most suited unit** stands for **human readable**. e.g. 1000M = 1G ..
 
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/duCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+
+## `df`
+
+### The command is used to see information about the volumes mounted (on computer).
+
+### Displays the amount of disk space available on the file system as well as the used space.
+
+### Options: 
+
+- #### `-h`
+
+  - **Usage:** `df -h`.
+
+  - **Purpose:** The option is used to display the disk usage information in human readable sizes (`G`, `M`, `K`).
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/dfCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+
+## `history`
+
+### The command is used to display all the command that you've used per terminal
