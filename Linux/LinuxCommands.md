@@ -1239,4 +1239,13 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 
 ## `history`
 
-### The command is used to display all the command that you've used per terminal
+### The command is used to display all the commands that you've used with numbers that represent the command's number in history.
+
+### You can use the number of a command from history to run the command with `!` symbol.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/historyCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
