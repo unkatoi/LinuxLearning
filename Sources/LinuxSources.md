@@ -21,3 +21,5 @@
 - ### [Linux bash diff command explination](https://www.geeksforgeeks.org/diff-command-linux-examples/)
 
 - ### [What is tty in `ps` command](https://stackoverflow.com/questions/7113770/what-does-tty-mean-in-the-unix-ps-command)
+
+- ### [What is STAT and it's values (in `ps` ax)](https://askubuntu.com/questions/360252/what-do-the-stat-column-values-in-ps-mean)
