@@ -1297,3 +1297,159 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
      style="width: 80%; height: 80%;"/>
 </p>
 
+## `top`
+
+### The command is used to ***display and update information about the processes***.
+
+### To ***exit*** you press ***`q`***.
+
+### To scroll through the list use ⬆️/⬇️
+
+**Illustration's explination:**
+
+[All the following is from this link](https://www.howtogeek.com/668986/how-to-use-the-linux-top-command-and-understand-its-output/)
+
+**First line** includes:
+
+- **Time** - **current time** and **how long** the **computer has been running**. e.g `22:15:06 up 2 days`.
+
+- **`user`** - number of users logged in. e.g. `1 user`
+
+- **`load average`** - for the past **`<1 min>, <5 min>, <15 min>`**. e.g. `load average: 1.53, 1.06, 0.84`
+
+**Second line** includes:
+
+The **total number of tasks**, And their **states** (running, sleeping, stopped, zombie(unused, what remains of a dead process that wasn't properly been taken care of **you should have zero zombies**)). 
+
+**Example:** `Tasks: 183 total,   1 running, 182 sleeping,   0 stopped,   0 zombie`.
+
+**Third line:** central processing unit(CPU) related
+
+- **`us`** Amount of **time** the CPU spends **executing processes** for people in `user space`. e.g. `12.2 us`
+
+- **`sy`**: Amount of time spent running system “kernel space” processes. e.g. `2.8 sy`
+ 
+- **`ni`**: Amount of **time** spent **executing processes** with a manually set **nice value**. e.g. `0.0 ni`
+ 
+- **`id`**: Amount of **CPU idle(not active) time**. e.g. `88.6 id`
+ 
+- **`wa`**: Amount of **time** the **CPU spends waiting** for I/O to complete. e.g. `0.0 wa`
+ 
+- **`hi`**: Amount of **time** spent **servicing hardware interrupts**. e.g. `0.0 hi`
+ 
+- **`si`**: Amount of **time** spent **servicing software interrupts**. e.g. `0.1 si`
+
+- **`st`**: Amount of **time lost** due to running virtual machines (**Steal Time**). e.g. `0.0 st`
+
+**Fourth line:** Memory related
+
+- **`total`** total amount of **memory in KB**(kilo bytes). e.g. `7841.3 total`.
+
+- **`free`** total amount of **free memory in KB**. e.g. `2992.5 free`.
+
+- **`used`** total amount of **used memory in KB**. e.g. `2181.8 used`.
+
+- **`buff/cache`** total amount of **buff or cache memory in KB**. e.g. `2811.5 buff/cache`.
+
+**Fifth line:** Also memory related but you might not have it. A **swap** area used to store memory for processes that are not constantly running. 
+
+e.g. `MiB Swap:   2861.0 total,   2861.0 free,      0.0 used.   5032.0 avail Mem`
+
+**Table:**
+
+
+
+- **`PID`**: **Process ID**.
+
+- **`USER`**: The **owner** of the **process**.
+
+- **`PR`**: **Process priority**.
+
+- **`NI`**: The **nice value** of the process.
+
+- **`VIRT`**: Amount of **virtual memory used** by the process.
+
+- **`RES`**: Amount of **resident memory used** by the process.
+
+- **`SHR`**: Amount of **shared memory used** by the process.
+
+- **`S`**: **Status** of the process. (check list for values).
+
+| `S` column(State) | Meaning |
+| ----------- | ----------- |
+| **`D`** | **Uninterruptible sleep**. Usually IO |
+| **`R`** | **Running** or **runnable** |
+| **`S`** | **Interruptible sleep**. Waiting for an event to complete |
+| **`T`** | **Stopped** |
+| **`W`** | **Paging** (not valid since the 2.6.xx kernel)|
+| **`X`** | **Dead** (should never be seen) |
+| **`Z`** | **Defunct**(unused). Terminated but not reaped by its parent. |
+
+
+- **`%CPU`**: The percentage(share) of **CPU time used** by the process since the last update.
+**
+- **`%MEM`**: The percentage(share) of **physical memory used**.
+
+- **`TIME`**+: **Total CPU time used** by the task in hundredths of a second.
+
+- **`COMMAND`**: The **command name** or command line (name + options).
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/topCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+### Options: 
+
+- #### `-o <field>`
+
+  - **Usage:** `top -o <field>`.
+
+  - **Purpose:** The option is used to **sort** the **list based on the field** you provide (from **highest to lowest**).
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/topCommandOptionO.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-E`
+
+  - **Usage:** `top -E <unit>`.
+
+  - **Purpose:** The option is used to **display memory on fourth and fifth rows with the specified unit.**
+
+| Unit | Representation |
+| ----------- | ----------- |
+| **`k`** | **kibi bytes** |
+| **`m`** | **mebi bytes** |
+| **`g`** | **gibi bytes** |
+| **`t`** | **tebi bytes** |
+| **`p`** | **pebi bytes** |
+
+> Instead of a decimal root(e.g. 10^x) they are of a binary root (e.g. 2^x). 
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/topCommandOptionE.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-n`
+
+  - **Usage:** `top -n <number>`.
+
+  - **Purpose:** The option is used to specify the **maximum number** of times for which **`top` can update** the table's contents. 
+
+> In the image bellow top ran only once then stopped instantly.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/topCommandOptionN.png"
+     style="width: 80%; height: 80%;"/>
+</p>
