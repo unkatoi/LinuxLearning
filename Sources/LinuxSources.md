@@ -19,3 +19,5 @@
 - ### [`ls -l` command explination](https://www.garron.me/en/go2linux/ls-file-permissions.html)
 
 - ### [Linux bash diff command explination](https://www.geeksforgeeks.org/diff-command-linux-examples/)
+
+- ### [What is tty in `ps` command](https://stackoverflow.com/questions/7113770/what-does-tty-mean-in-the-unix-ps-command)
