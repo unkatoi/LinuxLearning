@@ -1249,3 +1249,51 @@ this time however **`-`** is to **delete from file1** and **`+`** is to **add fr
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/historyCommand.png"
      style="width: 80%; height: 80%;"/>
 </p>
+
+## `ps`
+
+### The command is used to see a list of ***user-initiated processes*** currently running in the current session.
+
+### It stands for ***Process Status***.
+
+| Column | Meaning |
+| ----------- | ----------- |
+| **`PID`** | Stands for **Process ID** |
+| **`TTY`** | Stands for **TeleTYpewriter**. A **computer terminal** that executed the command |
+| **`TIME`** | The **time** that has **elapsed**(passed) since the **process started** |
+| **`CMD`** | Stands for **command**. The **command to which the process belongs to** |
+
+### Options: 
+
+- #### `ax`
+
+  - **Usage:** `ps ax`.
+
+  - **Purpose:** The option **displays all the processes** running on the computer. In addition to it's **status**.
+
+
+| Value | Meaning |
+| ----------- | ----------- |
+| **`D`** | **Uninterruptible sleep**. Usually IO |
+| **`R`** | **Running** or **runnable** |
+| **`S`** | **Interruptible sleep**. Waiting for an event to complete |
+| **`T`** | **Stopped** |
+| **`W`** | **Paging** (not valid since the 2.6.xx kernel)|
+| **`X`** | **Dead** (should never be seen) |
+| **`Z`** | **Defunct**(unused). Terminated but not reaped by its parent. |
+| **`<`** | The process has **high priority** |
+| **`s`** | The process is a **session loader**|
+| **`N`** | The process has **low priority**|
+| **`L`** | The process has pages **locked** into memory|
+| **`l`** | The process is **multi-threaded** |
+| **`+`** | The process is in the **foreground** |
+
+> The option can be used with **`ww`** in order to see the **complete command path** for a process like in the image bellow:
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/psCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
