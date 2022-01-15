@@ -48,6 +48,8 @@
 
 ### You can add **full path** to a directory(folder). In order to list all the files and folders inside that directory. **Usage: `ls <path>`**.
 
+### [Different colors meaning that the command lists](https://lynxbee.com/meaning-of-different-colors-in-ls-command/)
+
 ### Illustration: 
 
 <p align="center" >
