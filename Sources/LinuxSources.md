@@ -16,6 +16,8 @@
 
 - ### [cannot write error solution](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/)
 
+- ### [Fix no space left error](https://www.maketecheasier.com/fix-linux-no-space-left-on-device-error/)
+
 - ### [Keyboard shortcuts Linux](https://linuxconfig.org/kali-linux-keyboard-shortcuts-cheat-sheet)
 
 - ### [`ls -l` command explination](https://www.garron.me/en/go2linux/ls-file-permissions.html)
