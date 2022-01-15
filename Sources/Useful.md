@@ -34,6 +34,8 @@
 
 - ### [FreeCodeCamp - Visual Studio code - snippets](https://www.freecodecamp.org/news/definitive-guide-to-snippets-visual-studio-code/) 
 
+- ### [W3 Schools - provides basic information about programming and other things](https://www.w3schools.com/)
+
 - ## Edx
   
   - ### [CS50 computer science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
