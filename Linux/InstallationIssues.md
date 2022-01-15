@@ -12,6 +12,8 @@
 
    - [No space left on device error](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/InstallationIssues.md#2-failed-to-write-or-no-space-left-on-device-error-showed-up-while-following-videoes)
 
+      - [Resource for fix no space left](https://www.maketecheasier.com/fix-linux-no-space-left-on-device-error/)
+
 ---
 
 
