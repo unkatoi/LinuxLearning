@@ -18,6 +18,8 @@
 
 - ### [`ls -l` command explination](https://www.garron.me/en/go2linux/ls-file-permissions.html)
 
+- ### [`ls` different colors meaning](https://lynxbee.com/meaning-of-different-colors-in-ls-command/)
+
 - ### [Linux bash diff command explination](https://www.geeksforgeeks.org/diff-command-linux-examples/)
 
 - ### [What is tty in `ps` command](https://stackoverflow.com/questions/7113770/what-does-tty-mean-in-the-unix-ps-command)
