@@ -26,6 +26,12 @@
 
 - ### [Restore usb to original size on windows os](https://youtu.be/bHqFaJfpviI)
 
+- ### [CTF practice - beginner (can change difficulty)](https://ctflearn.com/challenge/1/browse) 
+
+- ### [Hack The Box - hands on hacking (practice)](https://www.hackthebox.com/) 
+
+- ### [INE - courses with a free pass from a video](https://checkout.ine.com/starter-pass?utm_source=youtube&utm_medium=referral&utm_campaign=db_referral) 
+
 - ## Edx
   
   - ### [CS50 computer science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
