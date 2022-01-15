@@ -32,6 +32,8 @@
 
 - ### [INE - courses with a free pass from a video](https://checkout.ine.com/starter-pass?utm_source=youtube&utm_medium=referral&utm_campaign=db_referral) 
 
+- ### [FreeCodeCamp - Visual Studio code - snippets](https://www.freecodecamp.org/news/definitive-guide-to-snippets-visual-studio-code/) 
+
 - ## Edx
   
   - ### [CS50 computer science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
