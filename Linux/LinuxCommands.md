@@ -1455,3 +1455,63 @@ e.g. `MiB Swap:   2861.0 total,   2861.0 free,      0.0 used.   5032.0 avail Mem
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/topCommandOptionN.png"
      style="width: 80%; height: 80%;"/>
 </p>
+
+## `kill <PID>`
+
+### The command is used to kill a process(stop) by providing the process id
+
+### Options: 
+
+- #### `-l`
+
+  - **Usage:** `kill -l`.
+
+  - **Purpose:** The option is used to list all the possible **signals** that can be used while **killing a process**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/killCommandOptionL.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+- #### `-<signal>`
+
+  - **Usage:** `kill -signal`.
+
+  - **Purpose:** The option is used to **specify** the **killing process** and can **also** be **represented** by the **number** of a **signal**.
+
+  | Number| Signal | What it does |
+  | ----------- | ----------- | ----------- |
+  | **`1`** | **`HUP`** | **Hang up** it's **sent automatically when** you **close** a **terminal window** that has a **running process**|
+  | **`2`** | **`INT`** | **Interrupt** sends same signal as `Ctrl + C` which **terminates the process** |
+  | **`9`** | **`KILL`** | It's **sent to the kernel to stop** and then **terminate the process** |
+  | **`15`** | **`TERM`** | **Terminate** the **default** signal that `kill` sends (when the process receives it terminates itself) |
+  | **`18`** | **`CONT`** | **Continue** used to **resume** a **stopped process** |
+  | **`19`** | **`STOP`** | It's **sent to the kernel**(connects hardware and software) to **stop** (doesn't stop the process) |
+
+**Illustration:**
+
+> **Instead** of **`kill -CONT`** you can use **`kill -18`**. Or even **`kill -SIGCONT`**
+>
+> Numbers for signals can be found with `kill -l` for those signals that are not mentioned.
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/killCommandSignals.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+## `killall <name>`
+
+### The command is similar to `kill`.
+
+### The ***difference*** is that ***instead of one id***, it sends a signal to ***one process name*** (that can have multiple processes running to kill all of them).
+
+### You can use the signals similar to kill
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/killallCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
