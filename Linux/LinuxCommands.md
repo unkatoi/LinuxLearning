@@ -1515,3 +1515,73 @@ e.g. `MiB Swap:   2861.0 total,   2861.0 free,      0.0 used.   5032.0 avail Mem
 <img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/killallCommand.png"
      style="width: 80%; height: 80%;"/>
 </p>
+
+## `jobs`
+
+### The command is used to look for processes that have been stopped either with `kill -STOP <pid>` / `killall -STOP <name>` / `Ctrl + Z`.
+
+### The command can only view the stopped/running processes that ran in the terminal you're using.
+
+**Illustration:**
+
+> Each process that has been **stopped in the current terminal window** appears in the output of jobs.
+> 
+> Each of the processes has an id based on the time it was stopped.
+>
+> **Example:** 
+>
+> `top` was stopped first(`[1]`), `find` was stopped second(`[2]`) ..
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/jobsCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+## `fg <number>`
+
+### The command stands for ForeGround.
+
+### The command is used to ***resume***(continue) a ***command*** that has been ***stopped*** by providing the ***id*** number of that command ***from jobs***.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/fgCommand1.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+> ### If there is only one job you can use `fg` without the number id. (In order to resume the program)
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/fgCommand2.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
+## `sleep <number> <suffix>`
+
+### The command is used to pause the terminal for the specified amount of time.
+
+| Suffix | Representation |
+| ----------- | ----------- |
+| **`s`** | **Seconds** (default) |
+| **`m`** | **Minutes** |
+| **`h`** | **Hours** |
+| **`d`** | **Days** |
+
+**Example:** `sleep 2s`
+
+## `<command> &`
+
+### The symbol `&` is used to run a command in the background (doesn't appear on the terminal's window).
+
+> ### This is very useful for commands that require time that you do not want to spend waiting. For example writing the output of a command in file.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/AmpersandSymbol.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
