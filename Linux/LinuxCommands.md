@@ -1585,3 +1585,64 @@ e.g. `MiB Swap:   2861.0 total,   2861.0 free,      0.0 used.   5032.0 avail Mem
      style="width: 80%; height: 80%;"/>
 </p>
 
+## `gzip <file name>`
+
+### The command is used to compress[^3] files. The command also deletes the file that was compressed automatically and adds the extension `.gz` to the file
+
+[^3]: minimize/**reduce the file's size** (makes the file smaller or use less storage)  
+
+### Multiple files can be compressed at once as follows:
+
+`gzip file1 file2`
+
+### Options: 
+
+- #### `-c`
+
+  - **Usage:** `gzip -c <file name> > <other file to store compressed version>`.
+
+  - **Purpose:** The option is used to **prevent the file from being deleted**, by **outputing** the compressed file's contents **into the terminal**. To avoid that you have to create a new file with `.gz` extension in the wanted location. 
+
+**Example:** `gzip -c Screenshot.png > ~/Desktop/img.png.gz`
+
+- #### `-k`
+
+  - **Usage:** `gzip -k <file name>`.
+
+  - **Purpose:** The option is used to **prevent the file from being deleted**, by creating a **new file automatically** in the **same directory** in which the original file is in.
+
+**Example:** `gzip -k ~/Pictures/Screenshot_2022-01-14_23_05_20.png`
+
+creates a file `~/Pictures/Screenshot_2022-01-14_23_05_20.png.gz` and writes the compressed version.
+
+- #### `-<NUMBER>`
+
+  - **Usage:** `gzip -<NUMBER> <file name>`.
+
+  - **Purpose:** The option is used to **specify the level of compression** which ranges from **1**(**fast**, least amount of compression is done) to **9** (**slow**, most amount of compression is done). **default is 6**
+
+- #### `-r`
+
+  - **Usage:** `gzip -r <directory>`.
+
+  - **Purpose:** The option is used to **compress all** the **files in** the given **directory** (recursively).
+
+- #### `-v`
+
+  - **Usage:** `gzip -v <file>`.
+
+  - **Purpose:** The option is used to **print the compression percentage information**.
+
+- #### `-d`
+
+  - **Usage:** `gzip -d <file>`.
+
+  - **Purpose:** The option is used to **decompress a file**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/gzipCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
