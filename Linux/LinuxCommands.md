@@ -1652,7 +1652,7 @@ creates a file `~/Pictures/Screenshot_2022-01-14_23_05_20.png.gz` and writes the
 
 ### Options: 
 
-They are the **same as with [`gzip` options](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/LinuxCommands.md#options-21)**.
+They are the **same as [`gzip` options](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/LinuxCommands.md#options-21)**.
 
 **Illustration:**
 
