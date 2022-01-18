@@ -1646,3 +1646,18 @@ creates a file `~/Pictures/Screenshot_2022-01-14_23_05_20.png.gz` and writes the
      style="width: 80%; height: 80%;"/>
 </p>
 
+## `gunzip <zipped file name>`
+
+### The command is used to ***return a compressed/zipped*** file to it's ***original size*** the same as `gzip -d <file name>`.
+
+### Options: 
+
+They are the **same as with [`gzip` options](https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Linux/LinuxCommands.md#options-21)**.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/gunzipCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
