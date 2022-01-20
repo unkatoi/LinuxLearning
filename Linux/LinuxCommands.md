@@ -1661,3 +1661,73 @@ They are the **same as [`gzip` options](https://github.com/unkatoi/LinuxLearning
      style="width: 80%; height: 80%;"/>
 </p>
 
+## `tar`
+
+### The command is used to create an archive that ***groups multiple files in a single file***.
+
+### The command stands for ***tape archive***.
+
+### Options: 
+
+- #### `-c`
+
+  - **Usage:** `tar -cf <file1> <file2> <file..>`.
+
+  - **Purpose:** The option is used to **create an archive for** all the **files** that you provide.
+
+> I've tried to use the option without **`-f`**, Result:
+>
+> `tar: Refusing to write archive contents to terminal (missing -f option?)`
+>
+> Seems that you must add **`-f`** option in order to **create an archive**
+- #### `-f`
+
+  - **Usage:** `tar -c -f <archive name>.tar <file1> <file2> <file..>`.
+
+  - **Purpose:** The option is used to **specify the archive's name**.
+
+- #### `-c`
+
+  - **Usage:** `tar -xf <archive name>.tar`.
+
+  - **Purpose:** The option refers to **extract**. What it does is **extract files from the archive** (return what has been archived to it's original state).
+
+> The **extracted files** will be by default in the **directory where the archive was**.
+>
+> In case you try to extract from non-existing archive outputs an error
+>
+> ```
+> tar: Smth.tar: Cannot open: No such file or directory
+> tar: Error is not recoverable: exiting now
+> ```
+
+- #### `-C`
+
+  - **Usage:** `tar <create/extract> <archive name>.tar -C <directory>`.
+
+  - **Purpose:** The option is used to provide a directory to where the command's output will be in (if the command was `tar -xf Archive.tar -C ~/Desktop/Files` then the extracted file from `tar -x` will be inside the `Files` directory)
+
+- #### `-t`
+
+  - **Usage:** `tar -tf <archive>`.
+
+  - **Purpose:** The option is used to **view a list** of all the **files** that are **inside the archive**.
+
+- #### `-z`
+
+  - **Usage:** `tar -czf <archive name>.tar.gz <files>`.
+
+  - **Purpose:** The option is used to **zip(compress) the archive at creation time** (which is compatible with `gzip`)
+
+> **You should add** to the archive name **`.gz` extension** in order to know that it is actually compressed. 
+> However, it still **works without it**.
+>
+> When **extracting files** from a compressed archive it will extract them **in their original size** not compressed.
+
+**Illustration:**
+
+<p align="center" >
+<img src="https://github.com/unkatoi/LinuxLearning/blob/LinuxFolder/Pictures/tarCommand.png"
+     style="width: 80%; height: 80%;"/>
+</p>
+
